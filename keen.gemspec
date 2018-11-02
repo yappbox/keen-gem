@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.description = "Send events and build analytics features into your Ruby applications."
   s.license     = "MIT"
 
-  s.add_dependency "multi_json", "~> 1.12"
+  s.add_dependency "multi_json", "~> 1.3.0"
   s.add_dependency "addressable", "~> 2.5"
 
   s.add_dependency 'rubysl', '~> 2.0' if defined?(RUBY_ENGINE) && RUBY_ENGINE == 'rbx'
